@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TypeMedicine : MonoBehaviour
+public class NewScript : MonoBehaviour
 {
     public GameObject Go;
     public GameObject Go2;
@@ -17,4 +17,4 @@ public class TypeMedicine : MonoBehaviour
         go2.SetActive(true);
     }
 
-}
+}   
