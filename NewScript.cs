@@ -6,6 +6,7 @@ public class NewScript : MonoBehaviour
 {
     public GameObject Go;
     public GameObject Go2;
+    private float levels;
 
     public void Start()
     {
