@@ -17,4 +17,9 @@ public class NewScript : MonoBehaviour
         go2.SetActive(true);
     }
 
+    public void SetColor()
+    {
+        Go.GetComponent<Renderer>().color = Color.red;
+    }
+
 }   

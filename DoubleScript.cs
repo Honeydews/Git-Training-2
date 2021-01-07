@@ -11,4 +11,13 @@ public class DoubleScript : MonoBehaviour
         Find("Global");
     }
 
+    public void Start()
+    {
+        Application.Quit();
+    }
+
+    private void SetFrame()
+    {
+        private float frames;
+    }
 }
