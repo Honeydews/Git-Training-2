@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class DoubleScript : MonoBehaviour
 {
-    private float speed;
+    private float speed;        
     public GameObject Global;
 
     public void Update()
     {
         Find("Global");
     }
-    public void Endline()
+
+    public void Start()
     {
         Application.Quit();
+    }
+
+    private void SetFrame()
+    {
+        private float frames;
+    }
+
+    private void SetSpeed(float v)
+    {
+        speed = v;
     }
 }
